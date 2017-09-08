@@ -36,7 +36,8 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1
+    android.hardware.biometrics.fingerprint@2.1 \
+    fingerprint.msm8937
 
 # LineageActions
 #PRODUCT_PACKAGES += \
