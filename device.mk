@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/imx219_chromatix.xml:system/etc/camera/imx219_chromatix.xml \
     $(LOCAL_PATH)/configs/camera/s5k4h8_chromatix.xml:system/etc/camera/s5k4h8_chromatix.xml \
     $(LOCAL_PATH)/configs/camera/mot_ov5695_l5695fa0_chromatix.xml:system/etc/camera/mot_ov5695_l5695fa0_chromatix.xml
+    
+PRODUCT_PACKAGES += \
+    libshim_camera_hal \
+    libshims_camera
 
 # Fingerprint
 PRODUCT_PACKAGES += \
